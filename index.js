@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/',(req,res) => {
     req.json({
-        msg : "hello from nodejs"
+        msg : "hello from docker"
     })
 });
 
